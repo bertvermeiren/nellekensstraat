@@ -1,4 +1,6 @@
 {
+    "autoLoad": true,
+    "autoRotate" : 5,
     "hfov": 100.0,
     "type": "multires",
     "multiRes": {
