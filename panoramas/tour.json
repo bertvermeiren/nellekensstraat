@@ -16,8 +16,8 @@
             "yaw": 117,
             "type": "multires",
             "multiRes": {
-                "path": "../panorama1/%l/%s%y_%x",
-                "fallbackPath": "../panorama1/fallback/%s",
+                "path": "panorama1/%l/%s%y_%x",
+                "fallbackPath": "panorama1/fallback/%s",
                 "extension": "jpg",
                 "tileResolution": 512,
                 "maxLevel": 4,
@@ -39,8 +39,8 @@
             "yaw": 5,
             "type": "multires",
             "multiRes": {
-                "path": "../panorama2/%l/%s%y_%x",
-                "fallbackPath": "../panorama2/fallback/%s",
+                "path": "panorama2/%l/%s%y_%x",
+                "fallbackPath": "panorama2/fallback/%s",
                 "extension": "jpg",
                 "tileResolution": 512,
                 "maxLevel": 4,
