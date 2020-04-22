@@ -55,6 +55,49 @@
                     "sceneId": "panorama1",
                     "targetYaw": -23,
                     "targetPitch": 2
+                },
+                {
+                    "pitch": -0.6,
+                    "yaw": 100.1,
+                    "type": "scene",
+                    "text": "3",
+                    "sceneId": "panorama3",
+                    "targetYaw": -23,
+                    "targetPitch": 2
+                }
+            ]
+        },
+        "panorama3": {
+            "title": "panorama3",
+            "hfov": 110,
+            "yaw": 5,
+            "type": "multires",
+            "multiRes": {
+                "path": "panorama3/%l/%s%y_%x",
+                "fallbackPath": "panorama3/fallback/%s",
+                "extension": "jpg",
+                "tileResolution": 512,
+                "maxLevel": 4,
+                "cubeResolution": 3256
+            },
+            "hotSpots": [
+                {
+                    "pitch": -0.6,
+                    "yaw": 37.1,
+                    "type": "scene",
+                    "text": "1",
+                    "sceneId": "panorama1",
+                    "targetYaw": -23,
+                    "targetPitch": 2
+                },
+                {
+                    "pitch": -0.6,
+                    "yaw": 200.1,
+                    "type": "scene",
+                    "text": "2",
+                    "sceneId": "panorama2",
+                    "targetYaw": -23,
+                    "targetPitch": 2
                 }
             ]
         }
