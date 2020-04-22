@@ -1,0 +1,62 @@
+{
+    "default": {
+        "firstScene": "panorama1",
+        "author": "Bert Vermeiren",
+        "sceneFadeDuration": 1000,
+        "autoLoad": true,
+        "autoRotate" : 5,
+        "minPitch" : -70,
+        "hfov": 100.0,
+    },
+    "scenes": {
+        "panorama1": {
+            "title": "1",
+            "hfov": 110,
+            "pitch": -3,
+            "yaw": 117,
+            "type": "multires",
+            "multiRes": {
+                "path": "panorama1/%l/%s%y_%x",
+                "fallbackPath": "panorama1/fallback/%s",
+                "extension": "jpg",
+                "tileResolution": 512,
+                "maxLevel": 4,
+                "cubeResolution": 3256
+            },
+            "hotSpots": [
+                {
+                    "pitch": -2.1,
+                    "yaw": 132.9,
+                    "type": "scene",
+                    "text": "2",
+                    "sceneId": "panorama2"
+                }
+            ]
+        },
+        "panorama2": {
+            "title": "panorama2",
+            "hfov": 110,
+            "yaw": 5,
+            "type": "multires",
+            "multiRes": {
+                "path": "panorama2/%l/%s%y_%x",
+                "fallbackPath": "panorama2/fallback/%s",
+                "extension": "jpg",
+                "tileResolution": 512,
+                "maxLevel": 4,
+                "cubeResolution": 3256
+            },
+            "hotSpots": [
+                {
+                    "pitch": -0.6,
+                    "yaw": 37.1,
+                    "type": "scene",
+                    "text": "1",
+                    "sceneId": "panorama1",
+                    "targetYaw": -23,
+                    "targetPitch": 2
+                }
+            ]
+        }
+    }
+}
