@@ -1,23 +1,23 @@
 {
     "default": {
-        "firstScene": "panorama1",
+        "firstScene": "kitchen",
         "sceneFadeDuration": 2000,
         "autoLoad": true,
         "autoRotate" : 5,
         "minPitch" : -70,
-        "hfov": 100.0,
+        "hfov": 120.0,
         "hotSpotDebug": true
     },
     "scenes": {
-        "panorama1": {
-            "title": "panorama1",
+        "kitchen": {
+            "title": "kitchen",
             "hfov": 110,
             "pitch": -3,
             "yaw": 117,
             "type": "multires",
             "multiRes": {
-                "path": "panorama1/%l/%s%y_%x",
-                "fallbackPath": "panorama1/fallback/%s",
+                "path": "kitchen/%l/%s%y_%x",
+                "fallbackPath": "kitchen/fallback/%s",
                 "extension": "jpg",
                 "tileResolution": 512,
                 "maxLevel": 4,
@@ -28,19 +28,19 @@
                     "pitch": -2.1,
                     "yaw": 132.9,
                     "type": "scene",
-                    "text": "2",
-                    "sceneId": "panorama2"
+                    "text": "living",
+                    "sceneId": "living"
                 }
             ]
         },
-        "panorama2": {
-            "title": "panorama2",
+        "living": {
+            "title": "living",
             "hfov": 110,
             "yaw": 5,
             "type": "multires",
             "multiRes": {
-                "path": "panorama2/%l/%s%y_%x",
-                "fallbackPath": "panorama2/fallback/%s",
+                "path": "living/%l/%s%y_%x",
+                "fallbackPath": "living/fallback/%s",
                 "extension": "jpg",
                 "tileResolution": 512,
                 "maxLevel": 4,
@@ -51,51 +51,8 @@
                     "pitch": -0.6,
                     "yaw": 37.1,
                     "type": "scene",
-                    "text": "1",
-                    "sceneId": "panorama1",
-                    "targetYaw": -23,
-                    "targetPitch": 2
-                },
-                {
-                    "pitch": -0.6,
-                    "yaw": 100.1,
-                    "type": "scene",
-                    "text": "3",
-                    "sceneId": "panorama3",
-                    "targetYaw": -23,
-                    "targetPitch": 2
-                }
-            ]
-        },
-        "panorama3": {
-            "title": "panorama3",
-            "hfov": 110,
-            "yaw": 5,
-            "type": "multires",
-            "multiRes": {
-                "path": "panorama3/%l/%s%y_%x",
-                "fallbackPath": "panorama3/fallback/%s",
-                "extension": "jpg",
-                "tileResolution": 512,
-                "maxLevel": 4,
-                "cubeResolution": 3256
-            },
-            "hotSpots": [
-                {
-                    "pitch": -0.6,
-                    "yaw": 37.1,
-                    "type": "scene",
-                    "text": "1",
-                    "sceneId": "panorama1",
-                    "targetYaw": -23,
-                    "targetPitch": 2
-                },
-                {
-                    "pitch": -0.6,
-                    "yaw": 200.1,
-                    "type": "scene",
-                    "text": "2",
-                    "sceneId": "panorama2",
+                    "text": "kitchen",
+                    "sceneId": "kitchen",
                     "targetYaw": -23,
                     "targetPitch": 2
                 }
