@@ -62,11 +62,29 @@
             },
             "hotSpots": [
                 {
-                    "pitch": -2.9309,
-                    "yaw": 129.2459,
+                    "pitch": -9,
+                    "yaw": 37,
                     "type": "scene",
                     "text": "living",
                     "sceneId": "living",
+                    "targetYaw": -23,
+                    "targetPitch": 2
+                },
+                {
+                    "pitch": -8,
+                    "yaw": 122,
+                    "type": "scene",
+                    "text": "terras",
+                    "sceneId": "terras",
+                    "targetYaw": -23,
+                    "targetPitch": 2
+                },
+                {
+                    "pitch": -4,
+                    "yaw": 168,
+                    "type": "scene",
+                    "text": "tuin",
+                    "sceneId": "tuin",
                     "targetYaw": -23,
                     "targetPitch": 2
                 }
