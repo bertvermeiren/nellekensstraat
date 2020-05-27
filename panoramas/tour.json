@@ -25,11 +25,25 @@
             },
             "hotSpots": [
                 {
-                    "pitch": -0.5526,
-                    "yaw": 40.1079,
+                    "pitch": -22,
+                    "yaw": -36,
                     "type": "scene",
                     "text": "keuken",
                     "sceneId": "keuken"
+                },
+                {
+                    "pitch": -13,
+                    "yaw": 130,
+                    "type": "scene",
+                    "text": "bureau",
+                    "sceneId": "bureau"
+                },
+                {
+                    "pitch": -7,
+                    "yaw": 40,
+                    "type": "scene",
+                    "text": "badkamer",
+                    "sceneId": "badkamer"
                 }
             ]
         },
