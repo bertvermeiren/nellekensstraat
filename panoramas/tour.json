@@ -44,6 +44,20 @@
                     "type": "scene",
                     "text": "badkamer",
                     "sceneId": "badkamer"
+                },
+                {
+                    "pitch": -7,
+                    "yaw": 40,
+                    "type": "scene",
+                    "text": "straatkant",
+                    "sceneId": "straatkant"
+                },
+                {
+                    "pitch": -7,
+                    "yaw": 40,
+                    "type": "scene",
+                    "text": "terras",
+                    "sceneId": "terras"
                 }
             ]
         },
@@ -84,7 +98,7 @@
                     "yaw": 168,
                     "type": "scene",
                     "text": "tuin",
-                    "sceneId": "tuin",
+                    "sceneId": "terras",
                     "targetYaw": -23,
                     "targetPitch": 2
                 }
@@ -110,6 +124,15 @@
                     "type": "scene",
                     "text": "living",
                     "sceneId": "living",
+                    "targetYaw": -23,
+                    "targetPitch": 2
+                },
+                {
+                    "pitch": -2.9309,
+                    "yaw": 129.2459,
+                    "type": "scene",
+                    "text": "straatkant",
+                    "sceneId": "straatkant",
                     "targetYaw": -23,
                     "targetPitch": 2
                 }
@@ -162,6 +185,15 @@
                     "sceneId": "keuken",
                     "targetYaw": -23,
                     "targetPitch": 2
+                },
+                {
+                    "pitch": -2.9309,
+                    "yaw": 129.2459,
+                    "type": "scene",
+                    "text": "tuin",
+                    "sceneId": "tuin",
+                    "targetYaw": -23,
+                    "targetPitch": 2
                 }
             ]
         },
@@ -185,6 +217,33 @@
                     "type": "scene",
                     "text": "terras",
                     "sceneId": "terras",
+                    "targetYaw": -23,
+                    "targetPitch": 2
+                },
+                {
+                    "pitch": -2.9309,
+                    "yaw": 129.2459,
+                    "type": "scene",
+                    "text": "keuken",
+                    "sceneId": "keuken",
+                    "targetYaw": -23,
+                    "targetPitch": 2
+                },
+                {
+                    "pitch": -2.9309,
+                    "yaw": 129.2459,
+                    "type": "scene",
+                    "text": "living",
+                    "sceneId": "living",
+                    "targetYaw": -23,
+                    "targetPitch": 2
+                },
+                {
+                    "pitch": -2.9309,
+                    "yaw": 129.2459,
+                    "type": "scene",
+                    "text": "straatkant",
+                    "sceneId": "straatkant",
                     "targetYaw": -23,
                     "targetPitch": 2
                 }
