@@ -230,7 +230,7 @@
             },
             "hotSpots": [
                 {
-                    "pitch": -3
+                    "pitch": -3,
                     "yaw": 6,
                     "type": "scene",
                     "text": "terras",
@@ -255,11 +255,20 @@
             },
             "hotSpots": [
                 {
-                    "pitch": -2.9309,
-                    "yaw": 129.2459,
+                    "pitch": 9,
+                    "yaw": -82,
                     "type": "scene",
                     "text": "living",
                     "sceneId": "living",
+                    "targetYaw": -23,
+                    "targetPitch": 2
+                },
+                {
+                    "pitch": 14,
+                    "yaw": -112,
+                    "type": "scene",
+                    "text": "bureau",
+                    "sceneId": "bureau",
                     "targetYaw": -23,
                     "targetPitch": 2
                 }
