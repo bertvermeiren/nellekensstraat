@@ -46,8 +46,8 @@
                     "sceneId": "badkamer"
                 },
                 {
-                    "pitch": -10,
-                    "yaw": 72,
+                    "pitch": -7,
+                    "yaw": 51,
                     "type": "scene",
                     "text": "straatkant",
                     "sceneId": "straatkant"
@@ -190,7 +190,7 @@
                     "pitch": -2,
                     "yaw": -160,
                     "type": "scene",
-                    "text": "tuin",
+                    "text": "tuin",110
                     "sceneId": "tuin",
                     "targetYaw": -23,
                     "targetPitch": 2
