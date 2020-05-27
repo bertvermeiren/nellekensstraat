@@ -13,7 +13,7 @@
             "title": "living",
             "hfov": 110,
             "pitch": -3,
-            "yaw": 117,
+            "yaw": -124,
             "type": "multires",
             "multiRes": {
                 "path": "living/%l/%s%y_%x",
@@ -54,7 +54,7 @@
                 },
                 {
                     "pitch": -11,
-                    "yaw": 90,
+                    "yaw": -90,
                     "type": "scene",
                     "text": "terras",
                     "sceneId": "terras"
@@ -98,7 +98,7 @@
                     "yaw": 168,
                     "type": "scene",
                     "text": "tuin",
-                    "sceneId": "terras",
+                    "sceneId": "tuin",
                     "targetYaw": -23,
                     "targetPitch": 2
                 }
@@ -243,7 +243,7 @@
         "straatkant": {
             "title": "straatkant",
             "hfov": 110,
-            "yaw": 5,
+            "yaw": -97,
             "type": "multires",
             "multiRes": {
                 "path": "straatkant/%l/%s%y_%x",
