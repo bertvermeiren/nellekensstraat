@@ -1,6 +1,6 @@
 {
     "default": {
-        "firstScene": "kitchen",
+        "firstScene": "living",
         "sceneFadeDuration": 2000,
         "autoLoad": true,
         "autoRotate" : 5,
@@ -9,34 +9,11 @@
         "hotSpotDebug": true
     },
     "scenes": {
-        "kitchen": {
-            "title": "kitchen",
-            "hfov": 110,
-            "pitch": -3,
-            "yaw": 117,
-            "type": "multires",
-            "multiRes": {
-                "path": "kitchen/%l/%s%y_%x",
-                "fallbackPath": "kitchen/fallback/%s",
-                "extension": "jpg",
-                "tileResolution": 512,
-                "maxLevel": 4,
-                "cubeResolution": 3256
-            },
-            "hotSpots": [
-                {
-                    "pitch": -0.5526,
-                    "yaw": 40.1079,
-                    "type": "scene",
-                    "text": "living",
-                    "sceneId": "living"
-                }
-            ]
-        },
         "living": {
             "title": "living",
             "hfov": 110,
-            "yaw": 5,
+            "pitch": -3,
+            "yaw": 117,
             "type": "multires",
             "multiRes": {
                 "path": "living/%l/%s%y_%x",
@@ -48,11 +25,159 @@
             },
             "hotSpots": [
                 {
+                    "pitch": -0.5526,
+                    "yaw": 40.1079,
+                    "type": "scene",
+                    "text": "keuken",
+                    "sceneId": "keuken"
+                }
+            ]
+        },
+        "keuken": {
+            "title": "keuken",
+            "hfov": 110,
+            "yaw": 5,
+            "type": "multires",
+            "multiRes": {
+                "path": "keuken/%l/%s%y_%x",
+                "fallbackPath": "keuken/fallback/%s",
+                "extension": "jpg",
+                "tileResolution": 512,
+                "maxLevel": 4,
+                "cubeResolution": 3256
+            },
+            "hotSpots": [
+                {
                     "pitch": -2.9309,
                     "yaw": 129.2459,
                     "type": "scene",
-                    "text": "kitchen",
-                    "sceneId": "kitchen",
+                    "text": "living",
+                    "sceneId": "living",
+                    "targetYaw": -23,
+                    "targetPitch": 2
+                }
+            ]
+        },
+        "bureau": {
+            "title": "bureau",
+            "hfov": 110,
+            "yaw": 5,
+            "type": "multires",
+            "multiRes": {
+                "path": "bureau/%l/%s%y_%x",
+                "fallbackPath": "bureau/fallback/%s",
+                "extension": "jpg",
+                "tileResolution": 512,
+                "maxLevel": 4,
+                "cubeResolution": 3256
+            },
+            "hotSpots": [
+                {
+                    "pitch": -2.9309,
+                    "yaw": 129.2459,
+                    "type": "scene",
+                    "text": "living",
+                    "sceneId": "living",
+                    "targetYaw": -23,
+                    "targetPitch": 2
+                }
+            ]
+        },
+        "badkamer": {
+            "title": "badkamer",
+            "hfov": 110,
+            "yaw": 5,
+            "type": "multires",
+            "multiRes": {
+                "path": "badkamer/%l/%s%y_%x",
+                "fallbackPath": "badkamer/fallback/%s",
+                "extension": "jpg",
+                "tileResolution": 512,
+                "maxLevel": 4,
+                "cubeResolution": 3256
+            },
+            "hotSpots": [
+                {
+                    "pitch": -2.9309,
+                    "yaw": 129.2459,
+                    "type": "scene",
+                    "text": "living",
+                    "sceneId": "living",
+                    "targetYaw": -23,
+                    "targetPitch": 2
+                }
+            ]
+        },
+        "terras": {
+            "title": "terras",
+            "hfov": 110,
+            "yaw": 5,
+            "type": "multires",
+            "multiRes": {
+                "path": "terras/%l/%s%y_%x",
+                "fallbackPath": "terras/fallback/%s",
+                "extension": "jpg",
+                "tileResolution": 512,
+                "maxLevel": 4,
+                "cubeResolution": 3256
+            },
+            "hotSpots": [
+                {
+                    "pitch": -2.9309,
+                    "yaw": 129.2459,
+                    "type": "scene",
+                    "text": "keuken",
+                    "sceneId": "keuken",
+                    "targetYaw": -23,
+                    "targetPitch": 2
+                }
+            ]
+        },
+        "tuin": {
+            "title": "tuin",
+            "hfov": 110,
+            "yaw": 5,
+            "type": "multires",
+            "multiRes": {
+                "path": "tuin/%l/%s%y_%x",
+                "fallbackPath": "tuin/fallback/%s",
+                "extension": "jpg",
+                "tileResolution": 512,
+                "maxLevel": 4,
+                "cubeResolution": 3256
+            },
+            "hotSpots": [
+                {
+                    "pitch": -2.9309,
+                    "yaw": 129.2459,
+                    "type": "scene",
+                    "text": "terras",
+                    "sceneId": "terras",
+                    "targetYaw": -23,
+                    "targetPitch": 2
+                }
+            ]
+        },
+        "straatkant": {
+            "title": "straatkant",
+            "hfov": 110,
+            "yaw": 5,
+            "type": "multires",
+            "multiRes": {
+                "path": "straatkant/%l/%s%y_%x",
+                "fallbackPath": "straatkant/fallback/%s",
+                "extension": "jpg",
+                "tileResolution": 512,
+                "maxLevel": 4,
+                "cubeResolution": 3256
+            },
+            "hotSpots": [
+                {
+                    "pitch": -2.9309,
+                    "yaw": 129.2459,
+                    "type": "scene",
+                    "text": "living",
+                    "sceneId": "living",
                     "targetYaw": -23,
                     "targetPitch": 2
                 }
