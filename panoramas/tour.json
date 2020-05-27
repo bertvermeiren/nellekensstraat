@@ -46,15 +46,15 @@
                     "sceneId": "badkamer"
                 },
                 {
-                    "pitch": -7,
-                    "yaw": 40,
+                    "pitch": -10,
+                    "yaw": 72,
                     "type": "scene",
                     "text": "straatkant",
                     "sceneId": "straatkant"
                 },
                 {
-                    "pitch": -7,
-                    "yaw": 40,
+                    "pitch": -11,
+                    "yaw": 90,
                     "type": "scene",
                     "text": "terras",
                     "sceneId": "terras"
@@ -119,8 +119,8 @@
             },
             "hotSpots": [
                 {
-                    "pitch": -2.9309,
-                    "yaw": 129.2459,
+                    "pitch": -28,
+                    "yaw": -101,
                     "type": "scene",
                     "text": "living",
                     "sceneId": "living",
@@ -128,8 +128,8 @@
                     "targetPitch": 2
                 },
                 {
-                    "pitch": -2.9309,
-                    "yaw": 129.2459,
+                    "pitch": -16,
+                    "yaw": 69,
                     "type": "scene",
                     "text": "straatkant",
                     "sceneId": "straatkant",
@@ -153,8 +153,8 @@
             },
             "hotSpots": [
                 {
-                    "pitch": -2.9309,
-                    "yaw": 129.2459,
+                    "pitch": -15,
+                    "yaw": 41,
                     "type": "scene",
                     "text": "living",
                     "sceneId": "living",
@@ -178,8 +178,8 @@
             },
             "hotSpots": [
                 {
-                    "pitch": -2.9309,
-                    "yaw": 129.2459,
+                    "pitch": -2,
+                    "yaw": -19,
                     "type": "scene",
                     "text": "keuken",
                     "sceneId": "keuken",
@@ -187,11 +187,29 @@
                     "targetPitch": 2
                 },
                 {
-                    "pitch": -2.9309,
-                    "yaw": 129.2459,
+                    "pitch": -2,
+                    "yaw": -160,
                     "type": "scene",
                     "text": "tuin",
                     "sceneId": "tuin",
+                    "targetYaw": -23,
+                    "targetPitch": 2
+                },
+                {
+                    "pitch": -1,
+                    "yaw": 7,
+                    "type": "scene",
+                    "text": "living",
+                    "sceneId": "living",
+                    "targetYaw": -23,
+                    "targetPitch": 2
+                },
+                {
+                    "pitch": -1,
+                    "yaw": 26,
+                    "type": "scene",
+                    "text": "straatkant",
+                    "sceneId": "straatkant",
                     "targetYaw": -23,
                     "targetPitch": 2
                 }
@@ -212,38 +230,11 @@
             },
             "hotSpots": [
                 {
-                    "pitch": -2.9309,
-                    "yaw": 129.2459,
+                    "pitch": -3
+                    "yaw": 6,
                     "type": "scene",
                     "text": "terras",
                     "sceneId": "terras",
-                    "targetYaw": -23,
-                    "targetPitch": 2
-                },
-                {
-                    "pitch": -2.9309,
-                    "yaw": 129.2459,
-                    "type": "scene",
-                    "text": "keuken",
-                    "sceneId": "keuken",
-                    "targetYaw": -23,
-                    "targetPitch": 2
-                },
-                {
-                    "pitch": -2.9309,
-                    "yaw": 129.2459,
-                    "type": "scene",
-                    "text": "living",
-                    "sceneId": "living",
-                    "targetYaw": -23,
-                    "targetPitch": 2
-                },
-                {
-                    "pitch": -2.9309,
-                    "yaw": 129.2459,
-                    "type": "scene",
-                    "text": "straatkant",
-                    "sceneId": "straatkant",
                     "targetYaw": -23,
                     "targetPitch": 2
                 }
