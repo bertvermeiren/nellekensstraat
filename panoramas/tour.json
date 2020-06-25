@@ -38,8 +38,8 @@
                     "sceneId": "keuken-living"
                 },
                 {
-                    "pitch": -27,
-                    "yaw": 118,
+                    "pitch": -10,
+                    "yaw": 117,
                     "type": "scene",
                     "text": "bureau",
                     "sceneId": "bureau"
@@ -59,8 +59,8 @@
                     "sceneId": "straatkant"
                 },
                 {
-                    "pitch": -7,
-                    "yaw": -65,
+                    "pitch": -9,
+                    "yaw": -78,
                     "type": "scene",
                     "text": "terras",
                     "sceneId": "terras"
