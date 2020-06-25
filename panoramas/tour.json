@@ -299,22 +299,22 @@
             },
             "hotSpots": [
                 {
-                    "pitch": 9,
-                    "yaw": -82,
+                    "pitch": -9,
+                    "yaw": -54,
                     "type": "scene",
                     "text": "living",
                     "sceneId": "living"
                 },
                 {
-                    "pitch": 9,
-                    "yaw": -82,
+                    "pitch": -9,
+                    "yaw": 63,
                     "type": "scene",
                     "text": "badkamer",
                     "sceneId": "badkamer"
                 },
                 {
-                    "pitch": 9,
-                    "yaw": -82,
+                    "pitch": -9,
+                    "yaw": 118,
                     "type": "scene",
                     "text": "straatkant",
                     "sceneId": "straatkant"
