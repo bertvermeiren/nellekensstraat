@@ -6,7 +6,7 @@
         "autoRotate" : 5,
         "minPitch" : -70,
         "hfov": 120.0,
-        "hotSpotDebug": true
+        "hotSpotDebug": false
     },
     "scenes": {
         "living": {
