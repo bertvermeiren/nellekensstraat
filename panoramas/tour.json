@@ -55,8 +55,8 @@
                     "pitch": -7,
                     "yaw": 51,
                     "type": "scene",
-                    "text": "straatkant",
-                    "sceneId": "straatkant"
+                    "text": "hall",
+                    "sceneId": "hall"
                 },
                 {
                     "pitch": -9,
@@ -272,8 +272,8 @@
                     "pitch": 9,
                     "yaw": -82,
                     "type": "scene",
-                    "text": "living",
-                    "sceneId": "living"
+                    "text": "hall",
+                    "sceneId": "hall"
                 },
                 {
                     "pitch": 14,
@@ -281,6 +281,43 @@
                     "type": "scene",
                     "text": "bureau",
                     "sceneId": "bureau"
+                }
+            ]
+        },
+        "hall": {
+            "title": "hall",
+            "hfov": 110,
+            "yaw": -97,
+            "type": "multires",
+            "multiRes": {
+                "path": "hall/%l/%s%y_%x",
+                "fallbackPath": "hall/fallback/%s",
+                "extension": "jpg",
+                "tileResolution": 512,
+                "maxLevel": 4,
+                "cubeResolution": 3256
+            },
+            "hotSpots": [
+                {
+                    "pitch": 9,
+                    "yaw": -82,
+                    "type": "scene",
+                    "text": "living",
+                    "sceneId": "living"
+                },
+                {
+                    "pitch": 9,
+                    "yaw": -82,
+                    "type": "scene",
+                    "text": "badkamer",
+                    "sceneId": "badkamer"
+                },
+                {
+                    "pitch": 9,
+                    "yaw": -82,
+                    "type": "scene",
+                    "text": "straatkant",
+                    "sceneId": "straatkant"
                 }
             ]
         }
