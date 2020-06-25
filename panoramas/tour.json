@@ -31,6 +31,13 @@
                     "sceneId": "keuken"
                 },
                 {
+                    "pitch": 0,
+                    "yaw": -36,
+                    "type": "scene",
+                    "text": "keuken-living",
+                    "sceneId": "keuken-living"
+                },
+                {
                     "pitch": -13,
                     "yaw": 130,
                     "type": "scene",
@@ -68,6 +75,50 @@
             "multiRes": {
                 "path": "keuken/%l/%s%y_%x",
                 "fallbackPath": "keuken/fallback/%s",
+                "extension": "jpg",
+                "tileResolution": 512,
+                "maxLevel": 4,
+                "cubeResolution": 3256
+            },
+            "hotSpots": [
+                {
+                    "pitch": -9,
+                    "yaw": 37,
+                    "type": "scene",
+                    "text": "living",
+                    "sceneId": "living"
+                },
+                {
+                    "pitch": 30,
+                    "yaw": 37,
+                    "type": "scene",
+                    "text": "keuken-living",
+                    "sceneId": "keuken-living"
+                },
+                {
+                    "pitch": -8,
+                    "yaw": 122,
+                    "type": "scene",
+                    "text": "terras",
+                    "sceneId": "terras"
+                },
+                {
+                    "pitch": -4,
+                    "yaw": 168,
+                    "type": "scene",
+                    "text": "tuin",
+                    "sceneId": "tuin"
+                }
+            ]
+        },
+        "keuken-living": {
+            "title": "keuken-living",
+            "hfov": 110,
+            "yaw": 5,
+            "type": "multires",
+            "multiRes": {
+                "path": "keuken-living/%l/%s%y_%x",
+                "fallbackPath": "keuken-living/fallback/%s",
                 "extension": "jpg",
                 "tileResolution": 512,
                 "maxLevel": 4,
@@ -147,6 +198,36 @@
                     "type": "scene",
                     "text": "living",
                     "sceneId": "living"
+                },
+                {
+                    "pitch": 0,
+                    "yaw": 41,
+                    "type": "scene",
+                    "text": "badkamer2",
+                    "sceneId": "badkamer2"
+                }
+            ]
+        },
+        "badkamer2": {
+            "title": "badkamer2",
+            "hfov": 110,
+            "yaw": 5,
+            "type": "multires",
+            "multiRes": {
+                "path": "badkamer2/%l/%s%y_%x",
+                "fallbackPath": "badkamer2/fallback/%s",
+                "extension": "jpg",
+                "tileResolution": 512,
+                "maxLevel": 4,
+                "cubeResolution": 3256
+            },
+            "hotSpots": [
+                {
+                    "pitch": -15,
+                    "yaw": 41,
+                    "type": "scene",
+                    "text": "badkamer",
+                    "sceneId": "badkamer"
                 }
             ]
         },
