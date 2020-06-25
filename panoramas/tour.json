@@ -46,14 +46,14 @@
                 },
                 {
                     "pitch": -7,
-                    "yaw": 40,
+                    "yaw": 35,
                     "type": "scene",
                     "text": "badkamer",
                     "sceneId": "badkamer"
                 },
                 {
                     "pitch": -7,
-                    "yaw": 51,
+                    "yaw": 45,
                     "type": "scene",
                     "text": "hall",
                     "sceneId": "hall"
@@ -302,22 +302,22 @@
                     "pitch": -9,
                     "yaw": -54,
                     "type": "scene",
-                    "text": "living",
-                    "sceneId": "living"
+                    "text": "straatkant",
+                    "sceneId": "straatkant"
                 },
                 {
                     "pitch": -9,
                     "yaw": 63,
                     "type": "scene",
-                    "text": "badkamer",
-                    "sceneId": "badkamer"
+                    "text": "living",
+                    "sceneId": "living"
                 },
                 {
                     "pitch": -9,
                     "yaw": 118,
                     "type": "scene",
-                    "text": "straatkant",
-                    "sceneId": "straatkant"
+                    "text": "badkamer",
+                    "sceneId": "badkamer"
                 }
             ]
         }
