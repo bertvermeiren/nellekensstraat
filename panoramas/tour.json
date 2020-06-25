@@ -287,7 +287,7 @@
         "hall": {
             "title": "hall",
             "hfov": 110,
-            "yaw": -97,
+            "yaw": 90,
             "type": "multires",
             "multiRes": {
                 "path": "hall/%l/%s%y_%x",
