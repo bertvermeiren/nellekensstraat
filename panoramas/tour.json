@@ -198,36 +198,6 @@
                     "type": "scene",
                     "text": "living",
                     "sceneId": "living"
-                },
-                {
-                    "pitch": 0,
-                    "yaw": 41,
-                    "type": "scene",
-                    "text": "badkamer2",
-                    "sceneId": "badkamer2"
-                }
-            ]
-        },
-        "badkamer2": {
-            "title": "badkamer2",
-            "hfov": 110,
-            "yaw": 5,
-            "type": "multires",
-            "multiRes": {
-                "path": "badkamer2/%l/%s%y_%x",
-                "fallbackPath": "badkamer2/fallback/%s",
-                "extension": "jpg",
-                "tileResolution": 512,
-                "maxLevel": 4,
-                "cubeResolution": 3256
-            },
-            "hotSpots": [
-                {
-                    "pitch": -15,
-                    "yaw": 41,
-                    "type": "scene",
-                    "text": "badkamer",
-                    "sceneId": "badkamer"
                 }
             ]
         },
