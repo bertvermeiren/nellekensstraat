@@ -12,7 +12,7 @@
         "living": {
             "title": "living",
             "hfov": 110,
-            "yaw": -124,
+            "yaw": 30,
             "type": "multires",
             "multiRes": {
                 "path": "living/%l/%s%y_%x",
@@ -167,7 +167,7 @@
         "badkamer": {
             "title": "badkamer",
             "hfov": 110,
-            "yaw": 5,
+            "yaw": 113,
             "type": "multires",
             "multiRes": {
                 "path": "badkamer/%l/%s%y_%x",
@@ -287,7 +287,7 @@
         "hall": {
             "title": "hall",
             "hfov": 110,
-            "yaw": 90,
+            "yaw": 69,
             "type": "multires",
             "multiRes": {
                 "path": "hall/%l/%s%y_%x",
