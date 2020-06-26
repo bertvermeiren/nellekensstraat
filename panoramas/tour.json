@@ -11,7 +11,6 @@
     "scenes": {
         "living": {
             "title": "living",
-            "hfov": 110,
             "yaw": 30,
             "type": "multires",
             "multiRes": {
@@ -69,7 +68,6 @@
         },
         "keuken": {
             "title": "keuken",
-            "hfov": 110,
             "yaw": 5,
             "type": "multires",
             "multiRes": {
@@ -106,7 +104,6 @@
         },
         "keuken-living": {
             "title": "keuken-living",
-            "hfov": 110,
             "yaw": 5,
             "type": "multires",
             "multiRes": {
@@ -136,7 +133,6 @@
         },
         "bureau": {
             "title": "bureau",
-            "hfov": 110,
             "yaw": 5,
             "type": "multires",
             "multiRes": {
@@ -166,7 +162,6 @@
         },
         "badkamer": {
             "title": "badkamer",
-            "hfov": 110,
             "yaw": -113,
             "type": "multires",
             "multiRes": {
@@ -189,7 +184,6 @@
         },
         "terras": {
             "title": "terras",
-            "hfov": 110,
             "yaw": 5,
             "type": "multires",
             "multiRes": {
@@ -233,7 +227,6 @@
         },
         "tuin": {
             "title": "tuin",
-            "hfov": 110,
             "yaw": 5,
             "type": "multires",
             "multiRes": {
@@ -256,7 +249,6 @@
         },
         "straatkant": {
             "title": "straatkant",
-            "hfov": 110,
             "yaw": -97,
             "type": "multires",
             "multiRes": {
@@ -286,7 +278,6 @@
         },
         "hall": {
             "title": "hall",
-            "hfov": 110,
             "yaw": 69,
             "type": "multires",
             "multiRes": {
