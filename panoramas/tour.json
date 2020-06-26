@@ -12,6 +12,7 @@
         "living": {
             "title": "living",
             "yaw": 30,
+            "pitch": -10,
             "type": "multires",
             "multiRes": {
                 "path": "living/%l/%s%y_%x",
@@ -163,6 +164,7 @@
         "badkamer": {
             "title": "badkamer",
             "yaw": -113,
+            "pitch": -15,
             "type": "multires",
             "multiRes": {
                 "path": "badkamer/%l/%s%y_%x",
