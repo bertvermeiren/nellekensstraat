@@ -167,7 +167,7 @@
         "badkamer": {
             "title": "badkamer",
             "hfov": 110,
-            "yaw": 113,
+            "yaw": -113,
             "type": "multires",
             "multiRes": {
                 "path": "badkamer/%l/%s%y_%x",
